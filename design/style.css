@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #045c7d;
+    --secondary-color: #05a7de;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-family: Noto Kufi Arabi;
+}
+.parent {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/images/bg.png);
+    background-size: cover;
+    display: flex;
+    font-size: x-large;
+}
+
+/* left */
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #045c7d;
+    font-family: "Noto Kufi Arabic";
+}
+.nav-bar{
+    display: flex;
+    gap: 35px;
+    margin-top: 120px;
+    align-items: center;
+    font-size: smaller;
+}
+.logo {
+    width: 77px;
+    height: 55px ;
+}
+.left-box {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin: auto;
+}
+.prg{
+    text-align: center;
+}
+.comp-name{
+    color: var(--secondary-color);
+}
+.link-btn{
+    width: 215px;
+    height: 45px;
+    color: white;
+    background-color:var(--main-color);
+    border-radius: 15px;
+    font-family: "Noto Kufi Arabic";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    transition: 0.3s;
+}
+.link-btn:hover {
+    background-color: #03435b;
+}
+
+/* right */
+
+.right-center{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 0px 0px 100px 0px;
+}
+.right {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.right-list {
+    display: flex;
+    flex-direction: column;
+    color: #05a7de;
+    gap: 28px;
+}
+.icon-link {
+    display: flex;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.icon {
+    font-size: 40px;
+}
